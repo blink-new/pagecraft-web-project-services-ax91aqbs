@@ -1,0 +1,245 @@
+{
+  "project": {
+    "name": "Pagecraft",
+    "description": "AI-Enhanced Web Project Services Platform",
+    "version": "1.0.0",
+    "created": "2025-01-24",
+    "type": "startup_website"
+  },
+  "branding": {
+    "company_name": "Pagecraft",
+    "tagline": "Where AI Meets Human Intelligence",
+    "mission": "Professional web project services combining artificial intelligence with human creativity",
+    "target_audience": "Businesses seeking modern web solutions, startups, entrepreneurs"
+  },
+  "design_system": {
+    "theme": "cyber-tech",
+    "style": "professional_futuristic",
+    "mood": "innovative, trustworthy, cutting-edge",
+    "inspiration": "AI technology, space aesthetics, modern minimalism"
+  },
+  "color_palette": {
+    "primary": {
+      "name": "Electric Cyan",
+      "hex": "#0EA5E9",
+      "rgb": "rgb(14, 165, 233)",
+      "hsl": "hsl(199, 89%, 48%)",
+      "usage": "Primary buttons, links, highlights"
+    },
+    "accent": {
+      "name": "Vibrant Purple",
+      "hex": "#8B5CF6",
+      "rgb": "rgb(139, 92, 246)",
+      "hsl": "hsl(258, 90%, 66%)",
+      "usage": "Secondary elements, gradients, special highlights"
+    },
+    "background": {
+      "name": "Deep Space Blue",
+      "hex": "#0F172A",
+      "rgb": "rgb(15, 23, 42)",
+      "hsl": "hsl(222, 47%, 11%)",
+      "usage": "Main background, dark sections"
+    },
+    "dark_mode": {
+      "name": "Midnight Blue",
+      "hex": "#020617",
+      "rgb": "rgb(2, 6, 23)",
+      "hsl": "hsl(225, 84%, 5%)",
+      "usage": "Darker backgrounds, overlays"
+    },
+    "supporting_colors": {
+      "white": "#FFFFFF",
+      "gray_100": "#F1F5F9",
+      "gray_300": "#CBD5E1",
+      "gray_400": "#94A3B8",
+      "gray_600": "#475569",
+      "gray_800": "#1E293B",
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444"
+    }
+  },
+  "typography": {
+    "primary_font": {
+      "name": "Inter",
+      "type": "sans-serif",
+      "usage": "Body text, paragraphs, general content",
+      "weights": [400, 500, 600, 700],
+      "source": "Google Fonts"
+    },
+    "secondary_font": {
+      "name": "Space Grotesk",
+      "type": "sans-serif",
+      "usage": "Headings, titles, brand elements",
+      "weights": [400, 500, 600, 700],
+      "source": "Google Fonts"
+    },
+    "font_scale": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "3.75rem"
+    }
+  },
+  "layout": {
+    "container_max_width": "1200px",
+    "grid_system": "12_column",
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "large": "1280px"
+    },
+    "spacing_scale": {
+      "xs": "0.25rem",
+      "sm": "0.5rem",
+      "md": "1rem",
+      "lg": "1.5rem",
+      "xl": "2rem",
+      "2xl": "3rem",
+      "3xl": "4rem",
+      "4xl": "6rem",
+      "5xl": "8rem"
+    }
+  },
+  "components": {
+    "navigation": {
+      "type": "fixed_header",
+      "background": "transparent_to_solid",
+      "animation": "fade_in_on_scroll",
+      "mobile_menu": "slide_in_drawer"
+    },
+    "buttons": {
+      "primary": {
+        "background": "gradient(cyan_to_purple)",
+        "hover_effect": "scale_and_glow",
+        "border_radius": "0.5rem"
+      },
+      "secondary": {
+        "background": "transparent",
+        "border": "cyan_border",
+        "hover_effect": "fill_animation"
+      }
+    },
+    "cards": {
+      "style": "glassmorphism",
+      "background": "semi_transparent_dark",
+      "border": "subtle_cyan_glow",
+      "hover_effect": "lift_and_glow"
+    }
+  },
+  "animations": {
+    "particle_system": {
+      "type": "floating_connected_dots",
+      "color": "cyan_with_opacity",
+      "movement": "slow_drift",
+      "connections": "dynamic_lines"
+    },
+    "page_transitions": {
+      "type": "smooth_scroll",
+      "duration": "0.8s",
+      "easing": "ease_in_out"
+    },
+    "hover_effects": {
+      "buttons": "scale_1.05_with_glow",
+      "cards": "lift_8px_with_shadow",
+      "images": "zoom_1.1_with_overlay"
+    },
+    "loading_animations": {
+      "progress_bars": "fill_from_left",
+      "skill_meters": "animated_percentage",
+      "counters": "count_up_effect"
+    }
+  },
+  "sections": {
+    "hero": {
+      "layout": "split_screen",
+      "left_content": "text_and_cta",
+      "right_content": "ai_robot_image",
+      "background": "particle_animation",
+      "height": "100vh"
+    },
+    "about": {
+      "layout": "centered_content",
+      "theme": "ai_human_collaboration",
+      "visual_elements": ["icons", "statistics", "timeline"]
+    },
+    "skills": {
+      "layout": "grid_4_columns",
+      "display": "animated_progress_bars",
+      "categories": ["Frontend", "Backend", "AI/ML", "Design"]
+    },
+    "projects": {
+      "layout": "masonry_grid",
+      "filter": "category_tabs",
+      "hover_effect": "overlay_with_details"
+    },
+    "services": {
+      "layout": "three_column_cards",
+      "pricing": "included",
+      "process": "step_by_step_workflow"
+    },
+    "contact": {
+      "layout": "form_with_info",
+      "validation": "real_time",
+      "success_animation": "checkmark_with_message"
+    }
+  },
+  "assets": {
+    "hero_image": {
+      "file": "hero-ai-image.png",
+      "description": "AI robot illustration",
+      "usage": "Hero section main visual",
+      "format": "PNG",
+      "optimization": "web_optimized"
+    },
+    "icons": {
+      "library": "Lucide React",
+      "style": "outline",
+      "animation": "hover_scale_and_color"
+    }
+  },
+  "technical_specifications": {
+    "framework": "React + Vite",
+    "styling": "Tailwind CSS",
+    "animations": "Framer Motion",
+    "ui_components": "Radix UI + shadcn/ui",
+    "icons": "Lucide React",
+    "responsive": "Mobile First",
+    "performance": {
+      "lazy_loading": true,
+      "image_optimization": true,
+      "code_splitting": true
+    }
+  },
+  "seo_optimization": {
+    "meta_tags": "complete",
+    "structured_data": "organization_schema",
+    "performance_score": "90+",
+    "accessibility": "WCAG_2.1_AA"
+  },
+  "brand_voice": {
+    "tone": "professional_yet_approachable",
+    "personality": "innovative, trustworthy, expert",
+    "messaging": "AI-powered solutions with human touch",
+    "call_to_action": "action_oriented_and_clear"
+  },
+  "user_experience": {
+    "navigation": "intuitive_single_page",
+    "loading_time": "under_3_seconds",
+    "mobile_experience": "touch_optimized",
+    "accessibility": "keyboard_navigation_support"
+  },
+  "export_info": {
+    "created_by": "Blink AI",
+    "export_date": "2025-01-24",
+    "format_version": "1.0",
+    "usage": "Design documentation and team collaboration"
+  }
+}
